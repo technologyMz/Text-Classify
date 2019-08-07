@@ -7,3 +7,7 @@
  2. 为skip-gram模型建立一个扫描器
  3. 建立并训练skip-gram模型
  4. 训练模型并可视化
+
+参考： https://www.jianshu.com/p/f682066f0586
+
+
