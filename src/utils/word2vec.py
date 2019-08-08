@@ -167,9 +167,9 @@ def sent2vec(s, model):
     :return:
     """
     # jieba.enable_parallel()
-    words = str(s).lower()
-    words = jieba.lcut(words)
-    words = move_stop_words(words)
+    words = str(s)
+    # words = jieba.lcut(words)
+    # words = move_stop_words(words)
 
     M = []
     for w in words:
